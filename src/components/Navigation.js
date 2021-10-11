@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useState } from "react";
+import '../styles/Navigation.css'
 
 
 export default function NavBar({ currentPage, handlePageChange }) {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  
   return (
-    <nav id="nav">
-    <ul className="nav nav-tabs">
+    <nav className="navbar">
+
+      <div className="nav-container">
+       <div className="nav-logo">Shane Curtis</div> 
+    <ul className={click ? "nav-menu active" : "nav-menu"}>
       <li className="nav-item">
         <a
           href="#about"
@@ -23,7 +30,7 @@ export default function NavBar({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
         >
-          Project
+          Projects
         </a>
       </li>
       <li className="nav-item">
@@ -47,6 +54,11 @@ export default function NavBar({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          </div>
+        
+    </div>
     </nav>
   );
 }
