@@ -1,0 +1,38 @@
+
+
+.about-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.page-header{
+
+    margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
+    color: #E7DFDD;
+
+}
+
+.about-content{
+     
+    margin-top:50px;
+    font-family: 'Roboto Slab', serif;
+    color: #E7DFDD;
+    max-width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 20px;
+
+}
+
+
+
+#profile {
+    margin-top: 30px;
+    width: 210px;
+    height: 250px;
+    border-radius: 50%;
+  }
