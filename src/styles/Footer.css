@@ -14,3 +14,15 @@ footer{
     color: #E7DFDD;
   
 }
+
+#icons{
+
+    padding:12px;
+    color:#E7DFDD;
+}
+
+
+#icons:hover {
+    
+    color: #A239CA;
+  }
