@@ -1,11 +1,12 @@
 import React from 'react';
+import '../../styles/Project.css'
 
 export default function Project() {
     return (
 
-       <div>
+       <div className="project-body">
 
-           <h2>My Projects</h2>
+           <h1 className="page-header">My Projects</h1>
 
            <p></p>
 

@@ -13,3 +13,79 @@
     color: #E7DFDD;
 
 }
+
+.para-text{
+
+    font-family: 'Roboto Slab', serif;
+    color: #E7DFDD;
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 60%;
+
+}
+
+.res-link{
+
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #E7DFDD;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.res-link:hover{
+
+ color:#A239CA;
+}
+
+.section-header{
+
+    margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
+    color: #E7DFDD;
+    display: flex;
+ 
+}
+
+.container {
+    margin:20px;
+  }
+  
+
+.row{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+
+  .card {
+
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: #E7DFDD;
+    font-size: 20px;
+    
+  }
+
+
+
+
+  @media (max-width:600px) {
+
+    .card{
+      
+      font-size:15px;
+      flex-direction: column;
+    
+    
+    
+ 
+    
+    
+    }
+
+}

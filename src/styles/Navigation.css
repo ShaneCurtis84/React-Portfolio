@@ -122,3 +122,8 @@
     }
   }
   
+  .skills {
+
+    display: flex;
+    flex-direction:row;
+  }

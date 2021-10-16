@@ -6,10 +6,11 @@
 body {
   background-image: url("./assets/images/Background.jpg");
   background-color: #cccccc;
-  height: 1000px; 
+  height: 1000px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .pages {
