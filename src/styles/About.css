@@ -6,7 +6,7 @@
   background: url("../assets/images/Background.jpg") no-repeat center center
     fixed;
   background-size: cover;
-  height: 82vh;
+  height: 85vh;
 }
 
 .page-header {
@@ -31,14 +31,34 @@
   border-radius: 50%;
 }
 
-@media (max-width: 800px) {
-  .about-content {
-    margin-top: 50px;
-    font-family: "Roboto Slab", serif;
-    color: #e7dfdd;
-    max-width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 15px;
-  }
-}
+
+
+@media (max-width: 540px) { 
+
+    .about-content {
+        margin-top: 30px;
+        font-family: "Roboto Slab", serif;
+        color: #e7dfdd;
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 15px;
+      }
+    
+    #profile {
+        
+        width: 110px;
+        height: 140px;
+        border-radius: 50%;
+        margin-bottom:10px;
+      }
+
+
+ }
+
+
+
+
+
+  
+

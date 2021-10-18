@@ -19,3 +19,21 @@ footer {
 #icons:hover {
   color: #a239ca;
 }
+
+@media (max-width: 540px) { 
+
+
+
+footer {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+}
+
+
+

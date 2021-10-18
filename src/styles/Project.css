@@ -105,3 +105,22 @@
     margin-bottom: 5px;
   }
 }
+
+
+@media (max-width: 540px) { 
+
+  .card-header h3 {
+    font-size: 20px;
+    color: #e7dfdd;
+  }
+  
+  .card-header p {
+    font-size:15px;
+    max-width: 60%;
+    color: #e7dfdd;
+  }
+
+  .card-footer p {
+    font-size: 13px;
+  }
+}
