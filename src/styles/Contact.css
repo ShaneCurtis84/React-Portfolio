@@ -1,67 +1,53 @@
-.contact-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: url('../assets/images/Background.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: 82vh;
-
+.contact-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../assets/images/Background.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  height: 82vh;
 }
 
-.page-header{
-
-    margin-top: 70px;
-    font-family: 'Roboto Slab', serif;
-    color: #E7DFDD;
-
+.page-header {
+  margin-top: 70px;
+  font-family: "Roboto Slab", serif;
+  color: #e7dfdd;
 }
 
 .form {
-  
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 50px;
-   
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
 input {
- 
-   margin-top: 5px;
-   height: 25px;
-
-
+  margin-top: 5px;
+  height: 25px;
 }
 
 textarea {
-    margin-top: 5px;
-   
-
+  margin-top: 5px;
 }
 
 label {
-    
-    margin-top:20px;
-    font-family: 'Roboto Slab', serif;
-    color: #E7DFDD; 
-    font-size: 20px;
+  margin-top: 20px;
+  font-family: "Roboto Slab", serif;
+  color: #e7dfdd;
+  font-size: 20px;
 }
 
 button {
-
-    margin-top: 30px;
-    background-color: black;
-    color: #4717F6;
-    font-weight: bold;
-    padding: 5px;
-    font-size: 20px;
-    
+  margin-top: 30px;
+  background-color: black;
+  color: #4717f6;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 20px;
 }
 
-.error-text{
-
-    font-family: 'Roboto Slab', serif;
-    color: #E7DFDD; 
-    margin-top: 5px;
+.error-text {
+  font-family: "Roboto Slab", serif;
+  color: #e7dfdd;
+  margin-top: 5px;
 }
-

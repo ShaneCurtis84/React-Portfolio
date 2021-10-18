@@ -1,29 +1,21 @@
-
-footer{
-
-    height:80px;
-    background-color: black;
-   
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto Slab', serif;
-    color: #E7DFDD;
-   
-  
+footer {
+  height: 80px;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  color: #e7dfdd;
 }
 
-#icons{
-
-    padding:12px;
-    color:#E7DFDD;
+#icons {
+  padding: 12px;
+  color: #e7dfdd;
 }
-
 
 #icons:hover {
-    
-    color: #A239CA;
-  }
+  color: #a239ca;
+}
