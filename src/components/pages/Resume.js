@@ -17,9 +17,9 @@ export default function Resume() {
              <h2 className="section-header">Skills</h2>
 
              <div className="container">
-                <div className="row">
+             
                  
-                 <div className="card">
+                
                  <h2 className="section-header">Front-End</h2>
                  <ul>
                     <li>HTML5</li>
@@ -31,10 +31,10 @@ export default function Resume() {
                     <li>React</li>
 
                  </ul>
-                 </div>
+                
             
 
-                 <div className="card">
+            
                  <h2 className="section-header">Back-End</h2>
                  <ul>
                     <li>Node</li>
@@ -46,10 +46,10 @@ export default function Resume() {
                   
 
                  </ul>
-                 </div>
+                
 
-                 <div className="card">
-                 <h2 className="section-header">Other</h2>
+               
+                 <h2 className="section-header">Other Skills</h2>
                  <ul>
                     <li>Github</li>
                     <li>Heroku</li>
@@ -57,9 +57,9 @@ export default function Resume() {
                     <li>Webpack</li>
                     <li>Confluence/Jira</li>
                     </ul>
-                    </div>
+                  
 
-                    </div>
+                  
                     </div>
                     </div>
 
