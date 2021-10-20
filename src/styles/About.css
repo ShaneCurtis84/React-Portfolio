@@ -1,12 +1,18 @@
+.body-container{
+  background: url("../assets/images/Background.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  height:83vh;
+
+}
+
+
 .about-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("../assets/images/Background.jpg") no-repeat center center
-    fixed;
-  background-size: cover;
-  height: 85vh;
+
 }
 
 .page-header {

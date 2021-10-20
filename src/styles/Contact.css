@@ -1,11 +1,16 @@
+.body-container{
+  background: url("../assets/images/Background.jpg") no-repeat center center
+    fixed;
+  background-size: cover;
+  height:83vh;
+
+}
+
+
 .contact-body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("../assets/images/Background.jpg") no-repeat center center
-    fixed;
-  background-size: cover;
-  height: 82vh;
 }
 
 .page-header {

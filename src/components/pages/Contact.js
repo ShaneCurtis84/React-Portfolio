@@ -53,6 +53,7 @@ export default function Contact() {
   };
 
   return (
+    <div className="body-container">
     <div className="contact-body">
       <h1 className="page-header">Contact Me</h1>
       <form className="form">
@@ -96,6 +97,7 @@ export default function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+    </div>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import "../../styles/About.css";
 
 export default function About() {
   return (
+    <div className="body-container">
     <div className="about-body">
       <h1 className="page-header">About Me</h1>
 
@@ -15,6 +16,8 @@ export default function About() {
         out at the links provided below.
       </p>
       <img id="profile" src={Image} alt="Profile Pic"></img>
+    </div>
+
     </div>
   );
 }
