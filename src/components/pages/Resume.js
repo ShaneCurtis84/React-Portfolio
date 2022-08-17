@@ -5,15 +5,7 @@ import ResumeDoc from "../../assets/documents/resume.pdf";
 export default function Resume() {
   return (
     <div className="resume-body">
-      <h1 className="page-header">Resume</h1>
-
-      <p className="para-text">
-        Please click the below link to download a PDF copy of my resume.
-      </p>
-
-      <a className="res-link" href={ResumeDoc}>
-        Download My Resume
-      </a>
+  
 
       <h2 className="section-header">Skills</h2>
 
